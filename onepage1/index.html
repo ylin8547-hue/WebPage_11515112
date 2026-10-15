@@ -1778,7 +1778,24 @@
 
         <!-- Right -->
         <div class="hero-right">
-          <img src="images/hero.jpg" alt="超級咖啡機器人萃取" width="400" height="300">
+          <img src="images/hero.jpg" alt="超級咖啡機器人萃取" width="400" height="300" loading="eager"
+            onerror="this.onerror=null; this.style.display='none'; this.parentElement.querySelector('.hero-img-fallback').style.display='flex';">
+          <div class="hero-img-fallback" style="display:none; width:400px; height:300px; background:linear-gradient(135deg,#16161c,#1e1e2e); border-radius:22px; border:1px solid #262633; align-items:center; justify-content:center; flex-direction:column; gap:12px; box-shadow:0 0 25px rgba(229,185,76,0.2);">
+            <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="14" width="56" height="44" rx="8" fill="#1e1e2e" stroke="#e5b94c" stroke-width="1.5"/>
+              <ellipse cx="36" cy="34" rx="10" ry="13" fill="#16161c" stroke="#e5b94c" stroke-width="1.5"/>
+              <path d="M26 34 Q28 26 36 26 Q44 26 46 34" stroke="#ffda73" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+              <path d="M30 45 Q33 50 36 50 Q39 50 42 45" stroke="#e5b94c" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+              <circle cx="36" cy="34" r="3" fill="#e5b94c"/>
+              <line x1="36" y1="14" x2="36" y2="20" stroke="#ffda73" stroke-width="2" stroke-linecap="round"/>
+              <line x1="36" y1="48" x2="36" y2="58" stroke="#e5b94c" stroke-width="2" stroke-linecap="round"/>
+              <line x1="16" y1="34" x2="22" y2="34" stroke="#e5b94c" stroke-width="2" stroke-linecap="round"/>
+              <line x1="50" y1="34" x2="56" y2="34" stroke="#e5b94c" stroke-width="2" stroke-linecap="round"/>
+              <ellipse cx="36" cy="58" rx="6" ry="2" fill="#e5b94c" opacity="0.4"/>
+            </svg>
+            <span style="font-family:'Space Grotesk',monospace; font-size:11px; color:#606072; letter-spacing:1px;">ROBOTIC COFFEE SYSTEM v2.0</span>
+            <span style="font-family:'Noto Sans TC',sans-serif; font-size:13px; color:#9696a8;">航太級機器人萃取系統</span>
+          </div>
         </div>
       </div>
     </div>
