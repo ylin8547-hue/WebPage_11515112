@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 375" width="100%" height="100%">
+  <defs>
+    <linearGradient id="beanBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#faf6f0"/>
+      <stop offset="100%" stop-color="#ede3d5"/>
+    </linearGradient>
+    <linearGradient id="beanColor1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#694326"/>
+      <stop offset="100%" stop-color="#462c19"/>
+    </linearGradient>
+    <linearGradient id="beanColor2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#805635"/>
+      <stop offset="100%" stop-color="#553720"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="375" rx="12" fill="url(#beanBg)"/>
+  <circle cx="300" cy="185" r="130" fill="#ffffff" opacity="0.7"/>
+  <circle cx="450" cy="90" r="70" fill="#264e36" opacity="0.08"/>
+
+  <path d="M 120,290 Q 220,210 320,130" fill="none" stroke="#264e36" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M 180,240 Q 170,195 195,185 Q 215,225 180,240" fill="#264e36"/>
+  <path d="M 230,200 Q 255,160 280,175 Q 255,215 230,200" fill="#386b4d"/>
+  <path d="M 280,160 Q 285,120 310,125 Q 310,165 280,160" fill="#264e36"/>
+  <circle cx="210" cy="225" r="9" fill="#a83232"/>
+  <circle cx="225" cy="215" r="8" fill="#c0392b"/>
+  <circle cx="260" cy="180" r="9" fill="#a83232"/>
+
+  <g transform="translate(340, 190) rotate(-15)">
+    <rect x="-110" y="-12" width="100" height="24" rx="10" fill="#d4a373"/>
+    <ellipse cx="25" cy="0" rx="65" ry="45" fill="#c28e5c"/>
+    <ellipse cx="30" cy="0" rx="55" ry="38" fill="#ab7a4a"/>
+  </g>
+
+  <g transform="translate(350, 175) rotate(20)">
+    <ellipse cx="0" cy="0" rx="32" ry="21" fill="url(#beanColor1)"/>
+    <path d="M -22,-4 Q 0,7 22,-4" stroke="#2a180d" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(390, 205) rotate(-35)">
+    <ellipse cx="0" cy="0" rx="28" ry="19" fill="url(#beanColor2)"/>
+    <path d="M -19,-3 Q 0,6 19,-3" stroke="#2a180d" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(320, 215) rotate(45)">
+    <ellipse cx="0" cy="0" rx="25" ry="17" fill="url(#beanColor1)"/>
+    <path d="M -17,-3 Q 0,5 17,-3" stroke="#2a180d" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(435, 230) rotate(10)">
+    <ellipse cx="0" cy="0" rx="20" ry="14" fill="url(#beanColor2)"/>
+    <path d="M -13,-2 Q 0,4 13,-2" stroke="#2a180d" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <rect x="220" y="315" width="160" height="30" rx="15" fill="#264e36" opacity="0.9"/>
+  <text x="300" y="335" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" text-anchor="middle" letter-spacing="1">特選產區生豆</text>
+</svg>

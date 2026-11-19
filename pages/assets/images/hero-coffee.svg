@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdfbf9"/>
+      <stop offset="50%" stop-color="#f4eee7"/>
+      <stop offset="100%" stop-color="#e9dfd4"/>
+    </linearGradient>
+    <linearGradient id="cupGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e8e2dc"/>
+    </linearGradient>
+    <linearGradient id="coffeeSurface" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#734928"/>
+      <stop offset="100%" stop-color="#462a14"/>
+    </linearGradient>
+    <linearGradient id="latteArt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8f0"/>
+      <stop offset="100%" stop-color="#ebd5be"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#4a3321" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" rx="20" fill="url(#heroBg)"/>
+  <circle cx="680" cy="120" r="160" fill="#264e36" opacity="0.06"/>
+  <circle cx="120" cy="480" r="140" fill="#845938" opacity="0.05"/>
+  <circle cx="400" cy="300" r="220" fill="#ffffff" opacity="0.5"/>
+
+  <g transform="translate(140, 160) rotate(-25)">
+    <path d="M 0,0 Q 80,-40 180,-30" fill="none" stroke="#264e36" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 40,-15 Q 60,-55 35,-65 Q 25,-40 40,-15" fill="#264e36" opacity="0.8"/>
+    <path d="M 90,-25 Q 120,-60 100,-75 Q 80,-50 90,-25" fill="#386b4d" opacity="0.75"/>
+    <path d="M 140,-30 Q 180,-50 170,-70 Q 140,-55 140,-30" fill="#264e36" opacity="0.8"/>
+    <circle cx="85" cy="-20" r="7" fill="#b0413e"/>
+    <circle cx="135" cy="-24" r="8" fill="#8a2a27"/>
+  </g>
+
+  <ellipse cx="400" cy="430" rx="210" ry="46" fill="#382619" opacity="0.12"/>
+  <ellipse cx="400" cy="415" rx="190" ry="38" fill="#ebe4dc" filter="url(#softShadow)"/>
+  <ellipse cx="400" cy="415" rx="180" ry="34" fill="#ffffff"/>
+  <ellipse cx="400" cy="415" rx="130" ry="22" fill="#e3dbd0"/>
+
+  <g filter="url(#softShadow)">
+    <path d="M 510,270 C 580,270 580,360 510,360" fill="none" stroke="#ffffff" stroke-width="24" stroke-linecap="round"/>
+    <path d="M 510,270 C 565,270 565,360 510,360" fill="none" stroke="#ded5cb" stroke-width="6" stroke-linecap="round"/>
+
+    <path d="M 270,240 C 275,370 330,410 400,410 C 470,410 525,370 530,240 Z" fill="url(#cupGrad)"/>
+    <ellipse cx="400" cy="240" rx="130" ry="32" fill="#ffffff"/>
+    <ellipse cx="400" cy="240" rx="122" ry="28" fill="#d8cfc5"/>
+    
+    <ellipse cx="400" cy="242" rx="116" ry="25" fill="url(#coffeeSurface)"/>
+  </g>
+
+  <g transform="translate(400, 240)">
+    <path d="M 0,14 C -35,-8 -45,-20 -20,-22 C 0,-24 0,-12 0,-12 C 0,-12 0,-24 20,-22 C 45,-20 35,-8 0,14 Z" fill="url(#latteArt)"/>
+    <circle cx="0" cy="-14" r="4" fill="url(#latteArt)"/>
+    <circle cx="0" cy="-6" r="3" fill="url(#latteArt)"/>
+  </g>
+
+  <g opacity="0.45" stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M 370,195 Q 355,160 375,130 Q 395,100 375,70"/>
+    <path d="M 405,185 Q 425,145 400,115 Q 385,85 405,55"/>
+    <path d="M 435,195 Q 450,165 435,135 Q 420,105 435,80"/>
+  </g>
+
+  <g transform="translate(230, 430) rotate(-18)">
+    <ellipse cx="0" cy="0" rx="18" ry="12" fill="#4a2e1b"/>
+    <path d="M -12,-3 Q 0,4 12,-3" stroke="#2c1a0e" stroke-width="2.5" fill="none"/>
+  </g>
+  <g transform="translate(265, 450) rotate(35)">
+    <ellipse cx="0" cy="0" rx="16" ry="11" fill="#5c3a21"/>
+    <path d="M -10,-2 Q 0,3 10,-2" stroke="#3d2616" stroke-width="2.5" fill="none"/>
+  </g>
+  <g transform="translate(560, 435) rotate(22)">
+    <ellipse cx="0" cy="0" rx="17" ry="11" fill="#4a2e1b"/>
+    <path d="M -11,-2 Q 0,3 11,-2" stroke="#2c1a0e" stroke-width="2.5" fill="none"/>
+  </g>
+
+  <rect x="520" y="70" width="180" height="42" rx="21" fill="#264e36" opacity="0.95"/>
+  <text x="610" y="96" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="1.5">歐椰咖啡 O-YEA</text>
+</svg>

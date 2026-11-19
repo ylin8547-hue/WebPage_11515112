@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="歐椰咖啡 - 一杯咖啡，留一點時間給自己。在熟悉的香氣裡，找到自己的生活節奏。特選咖啡豆、用心沖泡與自在空間。">
+  <title>首頁｜歐椰咖啡 - 讓咖啡，陪你慢下來</title>
+  <!-- 共用樣式表 -->
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+
+  <!-- ================= 頂部導覽列 (全站共用) ================= -->
+  <header class="site-header">
+    <div class="container header-container">
+      <!-- 品牌名稱（點擊連回首頁） -->
+      <a href="index.html" class="brand-link" aria-label="歐椰咖啡首頁">
+        <div class="brand-icon">歐</div>
+        <div class="brand-text">
+          <span class="brand-name">歐椰咖啡</span>
+          <span class="brand-slogan">讓咖啡，陪你慢下來</span>
+        </div>
+      </a>
+
+      <!-- 手機版漢堡選單按鈕 -->
+      <button id="menuToggle" class="menu-toggle" type="button" aria-label="切換導覽選單" aria-expanded="false" aria-controls="siteNav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- 導覽連結清單 -->
+      <nav id="siteNav" class="site-nav" aria-label="主要導覽">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link active" aria-current="page">首頁</a></li>
+          <li><a href="about.html" class="nav-link">關於我們</a></li>
+          <li><a href="contact.html" class="nav-link">聯絡電話</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ================= 主要內容區 ================= -->
+  <main>
+    <!-- 1. 主視覺區塊 (Hero Section) -->
+    <section class="hero-section" aria-labelledby="heroTitle">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-tag">
+            <span>🌿</span> 自然・簡潔・純粹風味
+          </div>
+          <h1 id="heroTitle" class="hero-title">一杯咖啡，<br><span>留一點時間給自己。</span></h1>
+          <p class="hero-lead">在熟悉的香氣裡，找到自己的生活節奏。推開門，放慢腳步，享受每一口純淨溫暖的手作醇香。</p>
+          <div class="btn-group hero-actions">
+            <a href="about.html" class="btn btn-primary">認識我們</a>
+            <a href="contact.html" class="btn btn-secondary">聯絡我們</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-image-wrapper">
+            <img src="assets/images/hero-coffee.svg" alt="歐椰咖啡手沖現煮咖啡主題情境，熱氣與新鮮咖啡豆" width="800" height="600">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. 品牌簡介區塊 (Brand Intro) -->
+    <section class="section" aria-labelledby="introTitle">
+      <div class="container">
+        <div class="brand-intro-box">
+          <div>
+            <span class="section-badge">關於歐椰</span>
+            <h2 id="introTitle" class="intro-highlight">慢下來，<br>感受每一刻生活的溫度。</h2>
+          </div>
+          <div class="intro-content">
+            <p>歐椰咖啡創立於對純粹風味的堅持。在步調緊湊的現代都市裡，我們常常忘了停下腳步深呼吸。我們希望為每一位走進店裡的朋友，打造一處暫停時間的靜謐綠洲。</p>
+            <p>從高山農莊的特選生豆、匠心烘焙到職人專注手沖，每一杯咖啡不僅僅是一份飲品，更是陪伴你重新梳理思緒、找回自我步調的日常儀式。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. 三項核心特色 (Features) -->
+    <section class="section section-muted" aria-labelledby="featuresTitle">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">堅持品質</span>
+          <h2 id="featuresTitle" class="section-title">我們的三大特色</h2>
+          <p class="section-desc">從選豆、萃取到空間細節，我們以真摯用心打造每一份細膩體驗。</p>
+        </div>
+
+        <div class="features-grid">
+          <!-- 特色一：特選咖啡豆 -->
+          <article class="card">
+            <div class="card-media">
+              <img src="assets/images/feature-beans.svg" alt="特選高海拔產區小農咖啡豆" width="600" height="375" loading="lazy">
+            </div>
+            <span class="card-badge">莊園精選</span>
+            <h3 class="card-title">特選咖啡豆</h3>
+            <p class="card-text">堅持嚴選高海拔單一莊園的小農咖啡生豆，注重產地溯源與永續耕作。藉由適度烘焙保留咖啡豆天然的水果花香與清爽酸甜層次。</p>
+          </article>
+
+          <!-- 特色二：用心沖泡 -->
+          <article class="card">
+            <div class="card-media">
+              <img src="assets/images/feature-roast.svg" alt="職人用心沖泡手沖濾滴咖啡" width="600" height="375" loading="lazy">
+            </div>
+            <span class="card-badge">職人手作</span>
+            <h3 class="card-title">用心沖泡</h3>
+            <p class="card-text">每一滴咖啡都由職人悉心掌控水溫、研磨顆粒粗細與悶蒸節奏。穩定的水流與專注的沖煮工藝，淬煉出香氣馥郁、餘韻回甘的完美風味。</p>
+          </article>
+
+          <!-- 特色三：自在空間 -->
+          <article class="card">
+            <div class="card-media">
+              <img src="assets/images/feature-space.svg" alt="明亮溫暖的原木與綠植休憩空間" width="600" height="375" loading="lazy">
+            </div>
+            <span class="card-badge">舒適氛圍</span>
+            <h3 class="card-title">自在空間</h3>
+            <p class="card-text">以大地色系、溫潤原木與自然綠植構築寬敞通透的環境。配有溫馨閱讀角落與舒適插座座位，讓你在無拘束的氛圍中放空或專注工作。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. 行動呼籲橫幅 (CTA Banner) -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-banner">
+          <h2>今天，給自己一杯咖啡的時間</h2>
+          <p>推開門扉，在瀰漫的現磨咖啡香中，讓緊繃的心靈重獲自在平靜。</p>
+          <div class="btn-group" style="justify-content: center;">
+            <a href="about.html" class="btn btn-primary">了解品牌故事</a>
+            <a href="contact.html" class="btn btn-secondary">查看聯絡方式</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= 頁尾區塊 (全站共用) ================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-logo">歐椰咖啡</span>
+          <p class="footer-slogan">讓咖啡，陪你慢下來。</p>
+          <p class="footer-desc">專注於自然好豆與手沖工藝的靜謐空間，提供每一位喜愛咖啡的旅人一份溫暖寧靜的陪伴。</p>
+        </div>
+
+        <div class="footer-nav">
+          <h4 class="footer-nav-title">快速導覽</h4>
+          <ul class="footer-nav-list">
+            <li><a href="index.html" class="footer-nav-link">首頁</a></li>
+            <li><a href="about.html" class="footer-nav-link">關於我們</a></li>
+            <li><a href="contact.html" class="footer-nav-link">聯絡電話</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-info">
+          <h4 class="footer-nav-title">門市資訊</h4>
+          <p class="footer-info-text">門市籌備中，最新營業資訊即將更新。</p>
+          <p class="footer-info-text">歡迎參閱 <a href="contact.html" style="color: #bfa593; text-decoration: underline;">聯絡電話頁面</a> 獲取後續進度。</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 歐椰咖啡 (學號：11515112). 保留所有權利。</p>
+        <p>本網站依據作業規格 sitemap.md 建置之三頁靜態網站</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 共用腳本 -->
+  <script src="assets/js/site.js"></script>
+</body>
+</html>

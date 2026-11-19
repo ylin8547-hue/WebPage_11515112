@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 375" width="100%" height="100%">
+  <defs>
+    <linearGradient id="roastBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#faf6f0"/>
+      <stop offset="100%" stop-color="#ebe0d1"/>
+    </linearGradient>
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#d6e4df" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="kettleMetal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a3e37"/>
+      <stop offset="100%" stop-color="#2d2520"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="375" rx="12" fill="url(#roastBg)"/>
+  <circle cx="300" cy="190" r="135" fill="#ffffff" opacity="0.75"/>
+  <circle cx="150" cy="110" r="60" fill="#264e36" opacity="0.06"/>
+
+  <line x1="80" y1="305" x2="520" y2="305" stroke="#d5c8bb" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M 260,205 L 340,205 L 360,295 C 360,305 240,305 240,295 Z" fill="url(#glassGrad)" stroke="#b8c9c3" stroke-width="2"/>
+  <path d="M 250,250 C 275,248 325,248 350,250 L 358,295 C 358,302 242,302 242,295 Z" fill="#6a4427" opacity="0.9"/>
+  <path d="M 350,220 C 385,220 385,280 345,280" fill="none" stroke="#2d2520" stroke-width="8" stroke-linecap="round"/>
+
+  <polygon points="250,150 350,150 320,205 280,205" fill="#fcfbfa" stroke="#e0d5c8" stroke-width="2"/>
+  <ellipse cx="300" cy="155" rx="42" ry="12" fill="#52321c"/>
+
+  <g transform="translate(140, 100)">
+    <path d="M 40,55 L 75,55 L 85,120 L 30,120 Z" fill="url(#kettleMetal)"/>
+    <ellipse cx="57" cy="55" rx="18" ry="6" fill="#3a2f2a"/>
+    <circle cx="57" cy="46" r="5" fill="#d4a373"/>
+    <path d="M 32,65 C 5,65 5,115 32,115" fill="none" stroke="#2d2520" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 82,110 C 110,105 130,70 120,40 C 118,33 125,30 128,34 C 135,46 125,95 85,116" fill="#2d2520"/>
+    <path d="M 268,75 Q 268,110 300,150" fill="none" stroke="#7eb8d4" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  </g>
+
+  <g stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6">
+    <path d="M 290,135 Q 280,115 295,95 Q 310,75 295,55"/>
+    <path d="M 315,130 Q 330,110 315,90 Q 300,70 315,50"/>
+  </g>
+
+  <rect x="220" y="325" width="160" height="28" rx="14" fill="#264e36" opacity="0.9"/>
+  <text x="300" y="344" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" text-anchor="middle" letter-spacing="1">精準水溫萃取</text>
+</svg>
