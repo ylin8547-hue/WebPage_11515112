@@ -190,8 +190,8 @@ main {
 }
 
 .brand-icon {
-  width: 36px;
-  height: 36px;
+  width: 38px;
+  height: 38px;
   background-color: var(--color-primary);
   color: #ffffff;
   border-radius: 10px;
@@ -201,6 +201,12 @@ main {
   font-size: 1.15rem;
   font-weight: 700;
   box-shadow: 0 3px 8px rgba(92, 58, 33, 0.25);
+  flex-shrink: 0;
+}
+
+.brand-icon svg {
+  width: 24px;
+  height: 24px;
 }
 
 .brand-text {
@@ -461,6 +467,30 @@ main {
   padding: 4.5rem 0 3.5rem 0;
   border-bottom: 1px solid var(--color-border);
   text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* 簡潔椰葉與椰子點綴背景（低透明度不影響閱讀） */
+.page-banner::after,
+.hero-section::after {
+  content: "";
+  position: absolute;
+  right: -24px;
+  bottom: -18px;
+  width: 220px;
+  height: 220px;
+  pointer-events: none;
+  opacity: 0.07;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'%3E%3Cpath d='M58 112 Q62 72 74 36' stroke='%23264e36' stroke-width='6' fill='none' stroke-linecap='round'/%3E%3Cpath d='M74 36 Q42 20 20 40 Q48 34 74 36 Z' fill='%23264e36'/%3E%3Cpath d='M74 36 Q52 8 30 14 Q56 22 74 36 Z' fill='%23264e36'/%3E%3Cpath d='M74 36 Q98 12 114 28 Q94 28 74 36 Z' fill='%23264e36'/%3E%3Cpath d='M74 36 Q104 34 114 56 Q94 42 74 36 Z' fill='%23264e36'/%3E%3Ccircle cx='67' cy='44' r='7' fill='%235c3a21'/%3E%3Ccircle cx='78' cy='46' r='6.5' fill='%235c3a21'/%3E%3C/svg%3E");
+}
+
+.page-banner > .container,
+.hero-section > .container {
+  position: relative;
+  z-index: 1;
 }
 
 .page-banner .breadcrumb {
@@ -941,7 +971,15 @@ main {
   font-weight: 800;
   color: #ffffff;
   margin-bottom: 0.75rem;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer-logo-icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
 }
 
 .footer-brand .footer-slogan {

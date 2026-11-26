@@ -24,8 +24,16 @@
   <line x1="120" y1="140" x2="480" y2="140" stroke="#e3d8cc" stroke-width="2"/>
 
   <rect x="170" y="70" width="260" height="52" rx="8" fill="#5c3a21" stroke="#3d2616" stroke-width="3" filter="drop-shadow(0 4px 8px rgba(0,0,0,0.15))"/>
-  <text x="300" y="96" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="16" font-weight="800" text-anchor="middle" letter-spacing="3">歐椰咖啡</text>
-  <text x="300" y="112" fill="#d4a373" font-family="-apple-system, sans-serif" font-size="10" font-weight="600" text-anchor="middle" letter-spacing="2">O-YEA COFFEE</text>
+  <g transform="translate(198, 96)">
+    <circle cx="0" cy="2" r="9" fill="#d4a373"/>
+    <circle cx="-3" cy="0" r="1.3" fill="#5c3a21"/>
+    <circle cx="2" cy="0" r="1.3" fill="#5c3a21"/>
+    <circle cx="-0.5" cy="4" r="1.3" fill="#5c3a21"/>
+    <path d="M 0,-7 Q -8,-14 -13,-9 Q -5,-8 0,-7 Z" fill="#eaf2ed"/>
+    <path d="M 0,-7 Q 8,-14 13,-9 Q 5,-8 0,-7 Z" fill="#eaf2ed"/>
+  </g>
+  <text x="308" y="96" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="16" font-weight="800" text-anchor="middle" letter-spacing="3">歐椰咖啡</text>
+  <text x="308" y="112" fill="#d4a373" font-family="-apple-system, sans-serif" font-size="10" font-weight="600" text-anchor="middle" letter-spacing="2">O-YEA COFFEE</text>
 
   <g transform="translate(110, 145)">
     <polygon points="0,0 380,0 395,45 -15,45" fill="#264e36"/>
