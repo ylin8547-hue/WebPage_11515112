@@ -96,6 +96,12 @@ button {
   background: none;
 }
 
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
 /* 內容容器 */
 .container {
   width: 100%;
@@ -368,6 +374,20 @@ main {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+}
+
+.btn-group-center {
+  justify-content: center;
+}
+
+.section-desc-spaced {
+  margin-bottom: 2rem;
+}
+
+.centered-cta-box {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 /* --------------------------------------------------------------------------
@@ -692,6 +712,7 @@ main {
   margin-bottom: 0.5rem;
 }
 
+.philosophy-card h3,
 .philosophy-card h4 {
   font-size: 1.3rem;
   color: var(--color-primary);
@@ -848,6 +869,7 @@ main {
   color: var(--color-text-main);
 }
 
+.notice-box h3,
 .notice-box h4 {
   font-size: 1rem;
   font-weight: 700;
@@ -978,6 +1000,15 @@ main {
   color: #a8a09a;
   line-height: 1.8;
   margin-bottom: 0.75rem;
+}
+
+.footer-inline-link {
+  color: #bfa593;
+  text-decoration: underline;
+}
+
+.footer-inline-link:hover {
+  color: #ffffff;
 }
 
 .footer-bottom {
